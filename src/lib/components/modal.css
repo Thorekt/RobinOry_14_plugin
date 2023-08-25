@@ -15,7 +15,7 @@
     display: flex;
 }
 
-.modal-content {
+.modal-body {
     width: 500px;
     background-color: #fff;
     border-radius: 10px;
@@ -32,7 +32,7 @@
     padding: 10px;
 }
 
- .modal-close {    
+.modal-close {    
     cursor: pointer;
     color: #000;
     font-weight: bold;
@@ -49,19 +49,19 @@
     height: 30px;
 }
   
-.modal-container .modal-close img {
+.modal-close img {
     height: 16px;
     width: 16px;
 }
 
 
-.modal-container button:hover{
+.modal-close:hover{
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.65);    
     background-color: #ffffffa8;
 }
 
 
-.modal-container .modal-body{
+.modal-content{
     margin: 0;
     padding: 0 0 20px 10px;
     flex-grow: 1;    

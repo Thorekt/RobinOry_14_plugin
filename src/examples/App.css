@@ -1,25 +1,25 @@
 .example-modal-container{
     background-color: rgba(68, 122, 68, 0.7);
 }
-.example-modal-container .example-modal-content{
+.example-modal-body{
     border-radius: 50px;
     width: 300px;
     height: 300px;
 }
-.example-modal-content .example-modal-header{
+.example-modal-header{
     background-color: rgba(5, 39, 16, 0.7);    
     border-radius: 50px 50px 0 0;
 }
 .example-modal-title{
     color: #fff;
 }
-.example-modal-header .example-modal-close{
+.example-modal-close{
     color: rgba(5, 39, 16, 0.7);
     border-radius: 30%;
     width: 50px;
     height: 50px;
 }
-.example-modal-container .example-modal-body
+.example-modal-content
 {
     background-color: rgba(29, 48, 35, 0.801);
     color: #fff;   
