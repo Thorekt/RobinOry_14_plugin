@@ -15,22 +15,24 @@
     display: flex;
 }
 
-.modal-container .modal-content {
+.modal-content {
     width: 500px;
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-.modal-container .modal-header{
+.modal-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
 }
 
-.modal-container button{
+ .modal-close {    
     cursor: pointer;
     color: #000;
     font-weight: bold;
@@ -38,9 +40,6 @@
     border-radius: 20%;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.45);
     background-color: #fff;
-}
-
-.modal-container .modal-close {    
     border-radius: 50%;
     font-size: 1.5rem;
     display: flex;
@@ -63,6 +62,9 @@
 
 
 .modal-container .modal-body{
-    margin-bottom: 20px;
+    margin: 0;
+    padding: 0 0 20px 10px;
+    flex-grow: 1;    
+    border-radius: 0px 0px 10px 10px;
 }
   

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../styles/components/modal.css';
-import close from '../assets/images/close-icon.svg';
+import './modal.css';
+import close from './close-icon.svg';
 
 /**
  * Modal component (modal)
@@ -22,12 +22,12 @@ import close from '../assets/images/close-icon.svg';
 export default function Modal({
   title, children, onClickClose, isModalOpen, classNames,
 }) {
-  const containerClassNames = `modal-container ${isModalOpen ? 'active' : ''} ${classNames.container}`;
-  const contentClassNames = `modal-content ${classNames.content}`;
-  const headerClassNames = `modal-header ${classNames.header}`;
-  const titleClassNames = `modal-title ${classNames.title}`;
-  const closeClassNames = `modal-close ${classNames.close}`;
-  const bodyClassNames = `modal-body ${classNames.body}`;
+  const containerClassNames = `${isModalOpen ? 'active' : ''} ${classNames.container} modal-container`;
+  const contentClassNames = `${classNames.content} modal-content`;
+  const headerClassNames = `${classNames.header} modal-header`;
+  const titleClassNames = `${classNames.title} modal-title`;
+  const closeClassNames = `${classNames.close} modal-close`;
+  const bodyClassNames = `${classNames.body} modal-body`;
   return (
     <div className={containerClassNames}>
       <div className={contentClassNames}>
