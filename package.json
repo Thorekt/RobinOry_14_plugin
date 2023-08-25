@@ -1,8 +1,10 @@
 {
   "name": "ro_oc_14_plugin_modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-react": "^7.22.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -12,7 +14,7 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "rm -rf dist && cross-env NODE_ENV=production babel --presets @babel/preset-react src/lib --out-dir dist --copy-files",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,5 +46,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Thorekt/RobinOry_14_plugin_modal"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
