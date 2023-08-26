@@ -13,3 +13,12 @@ yarn add ro_oc_14_plugin_modal
 ```
 
 ## Usage
+
+
+```JS
+import { Modal } from 'ro_oc_14_plugin_modal';
+
+...
+
+<Modal />
+```
