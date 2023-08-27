@@ -1,7 +1,8 @@
 # ro_oc_14_plugin_modal
 
 A library to create modal with react.
-[GitHub](https://github.com/Thorekt/RobinOry_14_plugin_modal)
+
+See on [GitHub](https://github.com/Thorekt/RobinOry_14_plugin_modal)
 
 ## Instalation
 
@@ -50,4 +51,4 @@ This is how modal's props works :
   - body : class for the body of the modal (not required)
 - children : not added in props but directly under modal's node, represant nodes to show in modal's body (not required)
 
-[Example](https://github.com/Thorekt/RobinOry_14_plugin_modal/blob/main/src/examples/App.js)
+See [Example](https://github.com/Thorekt/RobinOry_14_plugin_modal/blob/main/src/examples/App.js) on GitHub
