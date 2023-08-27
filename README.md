@@ -30,7 +30,7 @@ const modalClassNames = {
     body: "example-modal-body",
 };
 
-<Modal title="Modale title example" isModalOpen={showModal} onClickClose={closeModal} classNames={modalClassNames}>
+<Modal title="Modal's title example" isModalOpen={showModal} onClickClose={closeModal} classNames={modalClassNames}>
     <p>A child component</p>
     <span>A span</span>
 </Modal>
