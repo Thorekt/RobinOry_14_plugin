@@ -51,4 +51,7 @@ This is how modal's props works :
   - body : class for the body of the modal (not required)
 - children : not added in props but directly under modal's node, represant nodes to show in modal's body (not required)
 
+"classNames" is only used to add style to the modal and is not mandatory.
+Adding children to the modal is also mandatory.
+
 See [Example](https://github.com/Thorekt/RobinOry_14_plugin_modal/blob/main/src/examples/App.js) on GitHub
